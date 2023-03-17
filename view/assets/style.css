@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container {
+    width: 80%;
+    background: #dfdfdf;
+    padding: 4rem;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background: #07427a;
+    color: #fff;
+    font-weight: 600;
+}
+
+.horlogue {
+    display: flex;
+    color: #fff;
+    font-size: 3rem;
+    justify-content: space-around;
+    background: #575757;
+    border-radius: 15px;
+}
+
+.box {
+    background: #0a5274;
+    height: 5rem;
+    width: 5rem;
+}
+
+.circle {
+    border-radius: 50%;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all .5 ease;
+}
+
+/* #decrement {
+    display: none;
+} */

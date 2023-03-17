@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir" : "dist", // Dossier destination apres compilation
+        "target": "ES2015", // Version de ES cible
+        "noEmitOnError": true, // Bloquer la compilation si il y a une erreur au niveau de code TS
+        "strict": true // Verifier obligatoirement le typage des variables
+    },
+    "files" : [
+        "src/index.ts" // Dossier et fichier source pour compiler
+    ]
+}
